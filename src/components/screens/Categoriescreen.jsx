@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Container, Row,Col} from 'react-bootstrap'
 import { useDispatch, useSelector } from 'react-redux'
 import { categoriesaction } from '../../Actions/Categorieactions'
-import Categorie from '../categorie'
+import Categorie from '../Categorie'
 import Loader from '../Loader'
 import Message from '../Message'
 
